@@ -61,6 +61,7 @@ int main()
 {
 	link h = CreatLinkList();
 	printf("%d %d %d\n", findmax(h), findmin(h), Sum(h));
+
 	system("pause");
 	return 0;
 }
